@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    color: beige;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(mountain.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+    width: 450px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 12px #0a0909;
+    
+}
+h1{
+    text-transform: uppercase;
+    /* font-size: 2em; */
+    font-size: 3em;
+    font-family: emoji;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222 ;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: #717981;
+    color: antiquewhite;
+    font-size: 1.3em;
+    font-family: initial;
+    /* padding: 7px; */
+    opacity: .7;
+    transition: opacity .3s ease;
+    
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
+.lab1{
+    font-size: 1.3em;
+}
+.lab2{
+    font-size: 1.3em;
+}
+
